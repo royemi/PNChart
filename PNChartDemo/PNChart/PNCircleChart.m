@@ -64,6 +64,7 @@
     [_gradeLabel setTextAlignment:NSTextAlignmentCenter];
     [_gradeLabel setFont:[UIFont boldSystemFontOfSize:13.0f]];
     [_gradeLabel setTextColor: PNDeepGrey];
+    [_gradeLabel setBackgroundColor:[UIColor clearColor]];
     [_gradeLabel setCenter:CGPointMake(self.center.x,self.center.y)];
     _gradeLabel.method = UILabelCountingMethodEaseInOut;
     _gradeLabel.format = @"%d%%";
